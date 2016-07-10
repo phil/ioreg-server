@@ -1,0 +1,16 @@
+{
+  "name": "ioreg",
+  "version": "1.0.0",
+  "description": "Sever for IOReg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {},
+  "author": "Phil Balchin",
+  "license": "ISC"
+}
