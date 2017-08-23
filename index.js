@@ -1,9 +1,10 @@
 var express = require('express')
 var app = express()
-var redis = require("redis"),
+var redis = require("redis"), 
   redisClient = redis.createClient();
  
 app.get('/', function (request, response) {
+  // nout here
   response.send('Hello World 2')
 })
 
