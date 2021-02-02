@@ -1,1 +1,1 @@
-web: top
+web: npm start
